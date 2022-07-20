@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213CC9422886E47B00184A8F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CC9412886E47B00184A8F /* UserModel.swift */; };
+		213CC9442886FC4800184A8F /* CatImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CC9432886FC4800184A8F /* CatImageModel.swift */; };
+		213CC94628870C4E00184A8F /* CatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213CC94528870C4E00184A8F /* CatDetailView.swift */; };
+		215C1FBA2885AE1B00BA1F9A /* DeliciouslyCatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FAA2885AE1800BA1F9A /* DeliciouslyCatAppApp.swift */; };
+		215C1FBB2885AE1B00BA1F9A /* DeliciouslyCatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FAA2885AE1800BA1F9A /* DeliciouslyCatAppApp.swift */; };
+		215C1FBC2885AE1B00BA1F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FAB2885AE1800BA1F9A /* ContentView.swift */; };
+		215C1FBD2885AE1B00BA1F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FAB2885AE1800BA1F9A /* ContentView.swift */; };
+		215C1FBE2885AE1B00BA1F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215C1FAC2885AE1B00BA1F9A /* Assets.xcassets */; };
+		215C1FBF2885AE1B00BA1F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215C1FAC2885AE1B00BA1F9A /* Assets.xcassets */; };
+		215C1FD02886754600BA1F9A /* BreedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FCF2886754600BA1F9A /* BreedModel.swift */; };
+		215C1FD22886768C00BA1F9A /* BreedCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FD12886768C00BA1F9A /* BreedCall.swift */; };
+		215C1FD428867FAC00BA1F9A /* BreedInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215C1FD328867FAC00BA1F9A /* BreedInventoryView.swift */; };
+		219B39F02886BEC7004ED38C /* ApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B39EF2886BEC7004ED38C /* ApiTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		213CC9412886E47B00184A8F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		213CC9432886FC4800184A8F /* CatImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageModel.swift; sourceTree = "<group>"; };
+		213CC94528870C4E00184A8F /* CatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetailView.swift; sourceTree = "<group>"; };
+		215C1FAA2885AE1800BA1F9A /* DeliciouslyCatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliciouslyCatAppApp.swift; sourceTree = "<group>"; };
+		215C1FAB2885AE1800BA1F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		215C1FAC2885AE1B00BA1F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215C1FB12885AE1B00BA1F9A /* DeliciouslyCatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliciouslyCatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215C1FB72885AE1B00BA1F9A /* DeliciouslyCatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeliciouslyCatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215C1FB92885AE1B00BA1F9A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		215C1FCF2886754600BA1F9A /* BreedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedModel.swift; sourceTree = "<group>"; };
+		215C1FD12886768C00BA1F9A /* BreedCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedCall.swift; sourceTree = "<group>"; };
+		215C1FD328867FAC00BA1F9A /* BreedInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedInventoryView.swift; sourceTree = "<group>"; };
+		219B39EF2886BEC7004ED38C /* ApiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215C1FAE2885AE1B00BA1F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215C1FB42885AE1B00BA1F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215C1FA42885AE1800BA1F9A = {
+			isa = PBXGroup;
+			children = (
+				215C1FA92885AE1800BA1F9A /* Shared */,
+				215C1FB82885AE1B00BA1F9A /* macOS */,
+				215C1FB22885AE1B00BA1F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215C1FA92885AE1800BA1F9A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FCE288674C600BA1F9A /* View */,
+				215C1FCD288674C400BA1F9A /* ViewModel */,
+				215C1FCC288674BE00BA1F9A /* Model */,
+				215C1FAA2885AE1800BA1F9A /* DeliciouslyCatAppApp.swift */,
+				215C1FAB2885AE1800BA1F9A /* ContentView.swift */,
+				215C1FAC2885AE1B00BA1F9A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		215C1FB22885AE1B00BA1F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FB12885AE1B00BA1F9A /* DeliciouslyCatApp.app */,
+				215C1FB72885AE1B00BA1F9A /* DeliciouslyCatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215C1FB82885AE1B00BA1F9A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FB92885AE1B00BA1F9A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		215C1FCC288674BE00BA1F9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FCF2886754600BA1F9A /* BreedModel.swift */,
+				213CC9412886E47B00184A8F /* UserModel.swift */,
+				213CC9432886FC4800184A8F /* CatImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		215C1FCD288674C400BA1F9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FD12886768C00BA1F9A /* BreedCall.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		215C1FCE288674C600BA1F9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				215C1FD328867FAC00BA1F9A /* BreedInventoryView.swift */,
+				219B39EF2886BEC7004ED38C /* ApiTest.swift */,
+				213CC94528870C4E00184A8F /* CatDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215C1FB02885AE1B00BA1F9A /* DeliciouslyCatApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215C1FC22885AE1B00BA1F9A /* Build configuration list for PBXNativeTarget "DeliciouslyCatApp (iOS)" */;
+			buildPhases = (
+				215C1FAD2885AE1B00BA1F9A /* Sources */,
+				215C1FAE2885AE1B00BA1F9A /* Frameworks */,
+				215C1FAF2885AE1B00BA1F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeliciouslyCatApp (iOS)";
+			productName = "DeliciouslyCatApp (iOS)";
+			productReference = 215C1FB12885AE1B00BA1F9A /* DeliciouslyCatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215C1FB62885AE1B00BA1F9A /* DeliciouslyCatApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215C1FC52885AE1B00BA1F9A /* Build configuration list for PBXNativeTarget "DeliciouslyCatApp (macOS)" */;
+			buildPhases = (
+				215C1FB32885AE1B00BA1F9A /* Sources */,
+				215C1FB42885AE1B00BA1F9A /* Frameworks */,
+				215C1FB52885AE1B00BA1F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeliciouslyCatApp (macOS)";
+			productName = "DeliciouslyCatApp (macOS)";
+			productReference = 215C1FB72885AE1B00BA1F9A /* DeliciouslyCatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215C1FA52885AE1800BA1F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					215C1FB02885AE1B00BA1F9A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					215C1FB62885AE1B00BA1F9A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 215C1FA82885AE1800BA1F9A /* Build configuration list for PBXProject "DeliciouslyCatApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215C1FA42885AE1800BA1F9A;
+			productRefGroup = 215C1FB22885AE1B00BA1F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215C1FB02885AE1B00BA1F9A /* DeliciouslyCatApp (iOS) */,
+				215C1FB62885AE1B00BA1F9A /* DeliciouslyCatApp (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215C1FAF2885AE1B00BA1F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215C1FBE2885AE1B00BA1F9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215C1FB52885AE1B00BA1F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215C1FBF2885AE1B00BA1F9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215C1FAD2885AE1B00BA1F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215C1FD22886768C00BA1F9A /* BreedCall.swift in Sources */,
+				213CC9422886E47B00184A8F /* UserModel.swift in Sources */,
+				215C1FD428867FAC00BA1F9A /* BreedInventoryView.swift in Sources */,
+				215C1FD02886754600BA1F9A /* BreedModel.swift in Sources */,
+				213CC94628870C4E00184A8F /* CatDetailView.swift in Sources */,
+				213CC9442886FC4800184A8F /* CatImageModel.swift in Sources */,
+				215C1FBC2885AE1B00BA1F9A /* ContentView.swift in Sources */,
+				219B39F02886BEC7004ED38C /* ApiTest.swift in Sources */,
+				215C1FBA2885AE1B00BA1F9A /* DeliciouslyCatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215C1FB32885AE1B00BA1F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215C1FBD2885AE1B00BA1F9A /* ContentView.swift in Sources */,
+				215C1FBB2885AE1B00BA1F9A /* DeliciouslyCatAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		215C1FC02885AE1B00BA1F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215C1FC12885AE1B00BA1F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		215C1FC32885AE1B00BA1F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Outalianh-Mylondo.DeliciouslyCatApp";
+				PRODUCT_NAME = DeliciouslyCatApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		215C1FC42885AE1B00BA1F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Outalianh-Mylondo.DeliciouslyCatApp";
+				PRODUCT_NAME = DeliciouslyCatApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215C1FC62885AE1B00BA1F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Outalianh-Mylondo.DeliciouslyCatApp";
+				PRODUCT_NAME = DeliciouslyCatApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		215C1FC72885AE1B00BA1F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Outalianh-Mylondo.DeliciouslyCatApp";
+				PRODUCT_NAME = DeliciouslyCatApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215C1FA82885AE1800BA1F9A /* Build configuration list for PBXProject "DeliciouslyCatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215C1FC02885AE1B00BA1F9A /* Debug */,
+				215C1FC12885AE1B00BA1F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215C1FC22885AE1B00BA1F9A /* Build configuration list for PBXNativeTarget "DeliciouslyCatApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215C1FC32885AE1B00BA1F9A /* Debug */,
+				215C1FC42885AE1B00BA1F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215C1FC52885AE1B00BA1F9A /* Build configuration list for PBXNativeTarget "DeliciouslyCatApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215C1FC62885AE1B00BA1F9A /* Debug */,
+				215C1FC72885AE1B00BA1F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215C1FA52885AE1800BA1F9A /* Project object */;
+}
